@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"/> 
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css'/>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js'></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/test.js"></script>
+</head>
+<body>
+    <!--바로가기메뉴-->
+    <ul class="skipmenu_list">
+        <li><a href="#" class="hidden">메인메뉴바로가기</a></li>
+        <li><a href="#" class="hidden">본문바로가기 </a></li>
+        <li><a href="#" class="hidden">예약영역바로가기</a></li>
+        <li><a href="#" class="hidden">하단바로가기</a></li>
+    </ul>
+    <!--바로가기메뉴-->
+
+<!--비쥬얼-->
+<div id="visual_wrap">
+        <div id="logo">
+            <a href="#"> <img src="/image/Logo.png" alt="sm로고사진"></a>
+        </div>
+        <div id="visual">
+            <ul id="visual_list">
+                <li>
+                    <iframe width="100%" height="950" src="https://www.youtube.com/embed/NAhEwvI9TGE?autoplay=1&start=200&controls=0&mute=1&rel=0&loop=1&playlist=NAhEwvI9TGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="visual_text">
+                    <p >NCT WISH</p>
+                    <p>Wishful Winter</p>
+                  </div>
+                </li>
+                 <li>
+                    <iframe width="100%" height="950" src="https://www.youtube.com/embed/KdOF5-h4qpw?autoplay=1&start=200&controls=0&mute=1&rel=0&loop=1&playlist=KdOF5-h4qpw"frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="visual_text">
+                    <p >NCT WISH</p>
+                    <p>Wishful Winter</p>
+                  </div>
+                </li>
+                <li>
+                    <iframe width="100%" height="950" src="https://www.youtube.com/embed/NAhEwvI9TGE?autoplay=1&start=200&controls=0&mute=1&rel=0&loop=1&playlist=NAhEwvI9TGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="visual_text">
+                    <p >NCT WISH</p>
+                    <p>Wishful Winter</p>
+                  </div>
+                </li>
+                <li>
+                    <iframe width="100%" height="950" src="https://www.youtube.com/embed/NAhEwvI9TGE?autoplay=1&start=200&controls=0&mute=1&rel=0&loop=1&playlist=NAhEwvI9TGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="visual_text">
+                    <p >NCT WISH</p>
+                    <p>Wishful Winter</p>
+                  </div>
+                </li>
+                <li>
+                    <iframe width="100%" height="950" src="https://www.youtube.com/embed/NAhEwvI9TGE?autoplay=1&start=200&controls=0&mute=1&rel=0&loop=1&playlist=NAhEwvI9TGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="visual_text">
+                    <p >NCT WISH</p>
+                    <p>Wishful Winter</p>
+                  </div>
+                </li>
+                <li>
+                    <iframe width="100%" height="950" src="https://www.youtube.com/embed/NAhEwvI9TGE?autoplay=1&start=200&controls=0&mute=1&rel=0&loop=1&playlist=NAhEwvI9TGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="visual_text">
+                    <p >NCT WISH</p>
+                    <p>Wishful Winter</p>
+                  </div>
+                </li>
+                <li>
+                    <iframe width="100%" height="950" src="https://www.youtube.com/embed/NAhEwvI9TGE?autoplay=1&start=200&controls=0&mute=1&rel=0&loop=1&playlist=NAhEwvI9TGE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="visual_text">
+                    <p >NCT WISH</p>
+                    <p>Wishful Winter</p>
+                  </div>
+                </li> 
+               
+            </ul>
+        </div>
+        <div id="rolling_num">
+            <p id="next_num">01 <span id="all_num">/07</span></p>
+        </div>
+        <div id="next_text">
+            <p>NEXT</p>
+        </div>
+        <button id="left_btn"><img src="/image/chevron-left.png" alt=""></button>
+        <button id="right_btn"><img src="/image/chevron-right.png" alt=""></button> 
+</div>    
+<!--비주얼 끝-->
+<!--콘텐츠 첫번째 시작-->
+<div id="content_wrap">
+    <div id="circle">
+        <img src="/image/Rectangle_13.png" alt="">
+    </div>
+     <section id="kpop_all_wrap">
+        <div id="kpop">
+            <p id="sm">SM +</p>
+        </div>
+        <div id="pop_wrap">
+            <p id="pop">K-POP</p>
+        </div>
+        <div id="culture_wrap">
+            <p id="culture">K-CULTURE</p>
+        </div>   
+        <div id="kpop_text">
+            <p>우리는 음악의 새로운 기준을 제시합니다.</p>
+        </div>
+        <!--about부분-->
+        <div id="about_title">
+            <p id="about">About us</p>
+        </div>
+        <div id="about_text">
+            <p id="ab_text">틀을 깨는 혁신과 창조를 거듭해온 SM Entertainment가</p> 
+            <p id="ab_se_text">한류를 즐기는 새로운 기준을 제시하고자 합니다.</p>
+        </div>
+        <div>
+            
+        <div id="svg_wrap">
+            <div id="line_svg">
+                <svg width="225" height="3" viewBox="0 0 225 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-3 1.5H225" stroke="white" stroke-width="2"/>
+                    </svg>
+            </div>
+             <div id="fisrt_circle">
+                <svg width="290" height="290" viewBox="0 0 290 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="145" cy="145" r="144" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <p id="first_text">Global NO.1</p>
+            </div> 
+             <div id="second_circle">
+                <svg width="290" height="290" viewBox="0 0 290 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="145" cy="145" r="144" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <p id="second_text">Responsible</p>
+            </div> 
+             <div id="third_circle">
+                <svg width="290" height="290" viewBox="0 0 290 290" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="145" cy="145" r="144" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <p id="third_text">K-Culture</p>
+            </div> 
+            <div id="second_line">
+                <svg width="371" height="3" viewBox="0 0 371 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.5 1.5H370.5" stroke="white" stroke-width="2"/>
+                    </svg>                 
+            </div>
+            <div id="white_circle">
+                <svg width="290" height="290" viewBox="0 0 290 290" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="145" cy="145" r="144" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <p id="white_text">SM
+                        Entertainment</p>
+            </div> 
+            <div id="last_line">
+                <svg width="235" height="2" viewBox="0 0 235 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.5 1H236" stroke="white" stroke-width="2"/>
+                   </svg>                
+            </div>              
+        </div>
+        <!--global 부분-->
+        <div id="global_header">
+            <p id="global_text">Global</p>
+        </div>
+        <div id="global_sub">
+            <p id="global_sub_title">SM Entertainment는<br>
+            아시아를 넘어 글로벌 No.1을 지향합니다.</p>
+        </div>  
+        <div id="global_second_sub">
+            <p id="global_second_text">1995년 설립 이래 SM Entertainment는 K-POP의 태동과 진화를 이끌며 엔터테인먼트 업계의 이정표를 세워 왔습니다.<br> 
+                업계 최초로 Casting , Training, Producing, Management를 아우르는 아티스트 육성 시스템을 도입했고,<br>
+                1997년 해외 시장에 ‘한류(Korean Wave)’의 신호탄을 쏘아 올리며 글로벌 무대를 사로잡아왔습니다.<br> 
+                K-POP 장르를 개척하며 쌓아온 노하우를 발판 삼아, 최고의 인재들과 최고의 퍼포먼스를 선사하는<br> 
+                글로벌 1등 기업으로 도약하겠습니다.</p>
+        </div>
+        <!--responsible 부분-->
+        <div id="responsible_header">
+            <p id="responsible_text">Responsible</p>
+        </div>
+        <div id="responsible_sub">
+            <p id="responsible_sub_title">SM Entertainment는<br>
+            아시아를 넘어 글로벌 No.1을 지향합니다.</p>
+        </div>  
+        <div id="responsible_second_sub">
+            <p id="responsible_second_text">1995년 설립 이래 SM Entertainment는 K-POP의 태동과 진화를 이끌며 엔터테인먼트 업계의 이정표를 세워 왔습니다.<br> 
+                업계 최초로 Casting , Training, Producing, Management를 아우르는 아티스트 육성 시스템을 도입했고,<br>
+                1997년 해외 시장에 ‘한류(Korean Wave)’의 신호탄을 쏘아 올리며 글로벌 무대를 사로잡아왔습니다.<br> 
+                K-POP 장르를 개척하며 쌓아온 노하우를 발판 삼아, 최고의 인재들과 최고의 퍼포먼스를 선사하는<br> 
+                글로벌 1등 기업으로 도약하겠습니다.</p>
+        </div>
+    </section>
+  </div>
+  <!--지도 부분-->
+    <div id="map_wrap">
+        <div id="map_header">
+          <p id="map_title">  
+              K-Culture
+          </p>
+        </div>
+        <div id="map_subtitle_wrap">
+              <p id="map_subtitle"><span id="kpop_bold">K-POP</span>과 <span id="culture_bold">K-Culture</span>의<br> 
+                  미래를 설계하는 SM</p>
+        </div>
+        <div id="map_title_second">
+          <p id="title_second">미래를 내다보고 일상에 영감을 불어넣는 음악을 선보이겠습니다.<br>
+              시대를 뛰어넘어 ‘Made by SM’을 찾는 누구나 공감하고 위로받는 콘텐츠를 만들겠습니다.<br>
+              K-POP의 서사가 녹아 있는 SM Legacy를 기반으로 건전하고 풍성한 K-Culture의 미래를 그리는 데 앞장서고자 합니다.</p>
+        </div>
+        <div id="map_jpg"></div>
+    </div>
+
+
+
+<div id="contents_wrap">
+    <!-- 아티스트 텍스트 시작 -->
+    <div id="artist_title">
+        <p>ARTIST</p>
+    </div>
+    <!-- 아티스트 텍스트 끝 -->
+     <!-- 아티스트 소개 시작 -->
+    <section id="artist_wrap">
+        <h2 class="hidden">아티스트 소개</h2>
+        <div id="artist">
+            <div class="test">
+            <ul class="artist_ul">
+                <li>
+                    
+                    <div id="artist_00">
+                    <div class="artist_cover"><img src="/image/artist_img_00.png" alt="에스파"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_01">
+                        <div class="artist_cover"><img src="/image/artist_img_01.png" alt="라이즈"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_02">
+                        <div class="artist_cover"><img src="/image/artist_img_02.png" alt="엔시티위시"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_03">
+                        <div class="artist_cover"><img src="/image/artist_img_03.png" alt="아이린"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_04">
+                        <div class="artist_cover"><img src="/image/artist_img_04.png" alt="엔시티127"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_05">
+                        <div class="artist_cover"><img src="/image/artist_img_05.png" alt="레드벨벳"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_06">
+                        <div class="artist_cover"><img src="/image/artist_img_06.png" alt="엔시티드림"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_07">
+                        <div class="artist_cover"><img src="/image/artist_img_07.png" alt="보아"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                   
+                    <div id="artist_08">
+                        <div class="artist_cover"> <img src="/image/artist_img_08.png" alt="태연"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+            </ul>
+                 </div>
+                <div class="test">
+            <ul class="artist_ul">
+                <li>
+                   
+                    <div id="artist_09">
+                        <div class="artist_cover"> <img src="/image/artist_img_09.png" alt="동방신기"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_10">
+                        <div class="artist_cover"><img src="/image/artist_img_10.png" alt="슈퍼주니어"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                   
+                    <div id="artist_11">
+                        <div class="artist_cover"> <img src="/image/artist_img_11.png" alt="소녀시대"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    
+                    <div id="artist_12">
+                        <div class="artist_cover"><img src="/image/artist_img_12.png" alt="샤이니"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    <img src="/image/artist_img_13.png" alt="엑소">
+                    <div id="artist_13">
+                        <div class="artist_cover"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    <img src="/image/artist_img_14.png" alt="나이비스">
+                    <div id="artist_14">
+                        <div class="artist_cover"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    <img src="/image/artist_img_15.png" alt="way-v">
+                    <div id="artist_15">
+                        <div class="artist_cover"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    <img src="/image/artist_img_16.png" alt="루카스">
+                    <div id="artist_16">
+                        <div class="artist_cover"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+                <li>
+                    <img src="/image/artist_img_17.png" alt="강타">
+                    <div id="artist_17">
+                        <div class="artist_cover"></div>
+                    </div>
+                    <div class="artist_sns">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </section>
+     <!-- 아티스트 소개 끝 -->
+</div>
+<div id="bulletin_wrap">
+    <div id="audition_wrap">
+      <section id="audition">
+        <div id="auditiontext_wrap">
+          <div id="audition_text">
+            <p class="audition_title pinktext">SM TOWN</p>
+            <p class="audition_title">AUDITION</p>
+            <p class="audition_subtitle">K-POP의 중심에서 새로운 별을 찾습니다.</p>
+            <p class="audition_text">
+              “ The World is Your Stage! “ <br>
+              SM 오디션은 전 세계 인재들에게 열려 있습니다. 
+              글로벌 무대에서 당신의 이름을 빛내보세요.</p>
+          </div>
+          <div id="audition_dots">
+            <ul id="auditiondots_list">
+              <li class="selected"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div><!--auditiontext_wrap 끝-->
+        <div id="auditionimg_wrap">
+          <ul id="auditionimg_list">
+            <li><a href="#">
+              <img src="/image/audition_img00.png">
+            </a></li>
+            <li><a href="#">
+              <img src="/image/audition_img01.png">
+            </a></li>
+            <li><a href="#">
+              <img src="/image/audition_img02.png">
+            </a></li>
+            <li><a href="#">
+              <img src="/image/audition_img03.png">
+            </a></li>
+            <li><a href="#">
+              <img src="/image/audition_img04.png">
+            </a></li>
+            <li><a href="#">
+              <img src="/image/audition_img05.png">
+            </a></li>
+          </ul>
+        </div><!--auditionimg_wrap 끝-->
+        <div id="auditionicon_wrap">
+          <p><a href="https://audition.smtown.com/" target="_blank" aria-label="새창으로이동">오디션 링크</a></p>
+          <p><a href="https://www.instagram.com/smaudition_official/?igshid=7y6ctxjvmfmz" target="_blank" aria-label="새창으로이동">오디션 인스타그램</a></p>
+        </div>
+      </section>
+    </div><!--audition_wrap 끝-->
+    <div id="news_wrap">
+      <section id="news">
+        <div id="newstitles_wrap">
+          <p class="newswrap_title">NEWSROOM</p>
+          <p class="newswrap_subtitle">SM 엔터테인먼트와 관련된 최신 소식을 확인해 보세요.</p>
+          <ul id="newstitle_list">
+            <li class="selected">01. 드디어 온다! NCT 마크, 신곡 ‘프락치’ … </li>
+            <li>02. NCT DREAM, 2년 연속 美 징글볼 투어 뜨겁게 달궜다 </li>
+            <li>03. ‘D-1’ NCT 마크, 신곡 ‘프락치’ MV 티저 공개 화제</li>
+          </ul>
+          <div id="moreview_btn">MORE VIEW &#45;&gt;</div>
+        </div>
+        <div id="newscards_wrap">
+          <ul id="newscard_list">
+            <li class="selected">
+              <div class="newsimg_wrap">
+                <img src="/image/news_img00.png">
+              </div>
+              <p class="newscard_title">
+                드디어 온다! NCT 마크, 신곡 ‘프락치’<br> 
+                오늘(16일) 오후 6시 음원+MV 공개</p>
+              <p class="newscard_text">
+                마크 X 이영지, K팝과 힙합 넘나드는 원톱들의<br>강렬한 시너지!<br>
+                “나와 비슷한 캐릭터 영지와의 독특한 케미 담긴 곡,<br>재미있게 들어주시길”
+              </p>
+              <p class="newscard_date">
+                2024.12.16
+              </p>
+              <div class="newsmore_btn">뉴스전문 더보기</div>
+            </li>
+            <li>
+              <div class="newsimg_wrap">
+                <img src="/image/news_img01.png">
+              </div>
+              <p class="newscard_title">
+                NCT DREAM, 2년 연속 美 징글볼 투어 뜨겁게 달궜다</p>
+              <p class="newscard_text">
+                마크 X 이영지, K팝과 힙합 넘나드는 원톱들의 강렬한 시너지!<br>
+                “나와 비슷한 캐릭터 영지와의 독특한 케미 담긴 곡, 재미있게 들어주시길”
+              </p>
+              <p class="newscard_date">
+                2024.12.16
+              </p>
+              <div class="newsmore_btn">뉴스전문 더보기</div>
+            </li>
+            <li>
+              <div class="newsimg_wrap">
+                <img src="/image/news_img02.png">
+              </div>
+              <p class="newscard_title">
+                ‘D-1’ NCT 마크, 신곡 ‘프락치’ MV 티저 공개 화제</p>
+              <p class="newscard_text">
+                마크 X 이영지, K팝과 힙합 넘나드는 원톱들의<br> 강렬한 시너지!<br>
+                “나와 비슷한 캐릭터 영지와의 독특한 케미 담긴 곡, 재미있게 들어주시길”
+              </p>
+              <p class="newscard_date">
+                2024.12.16
+              </p>
+              <div class="newsmore_btn">뉴스전문 더보기</div>
+            </li>
+            <li>
+              <div class="newsimg_wrap">
+                <img src="/image/news_img03.png">
+              </div>
+              <p class="newscard_title">
+                NCT WISH, 日 투어 6개 도시 12회 공연<br>
+                전석 매진 대성황
+              <p class="newscard_text">
+                마크 X 이영지, K팝과 힙합 넘나드는 원톱들의 강렬한 시너지!<br>
+                “나와 비슷한 캐릭터 영지와의 독특한 케미 담긴 곡, 재미있게 들어주시길”
+              </p>
+              <p class="newscard_date">
+                2024.12.16
+              </p>
+              <div class="newsmore_btn">뉴스전문 더보기</div>
+            </li>
+          </ul>
+        </div>
+        <div id="newspagebtn_wrap">
+          <p>왼쪽</p>
+          <p>오른쪽</p>
+        </div>
+      </section>
+    </div><!--news_wrap 끝-->
+    <div id="investment_wrap">
+      <section id="investment">
+        <p class="invest_title">INVESTMENT</p>
+        <div id="investcate_wrap">
+          <div class="investcate_box" id="stock_price">
+            <p class="stock_title">SM Entertainment</p>
+            <p class="stock_price">76,600</p>
+            <p class="stock_text">전일대비 600</p>
+            <div id="stockgraph_wrap">
+              <img src="/image/graphVisual01.png" alt="주가그래프">
+            </div>
+          </div>
+          <div class="investcate_box">
+            <div id="ir_schedule">
+              <p class="investcate_title">IR 일정</p>
+              <div id="ir_graph">
+                <img src="/image/irgraph_img.png" alt="ir그래프">
+              </div>
+            </div>
+            <div id="ir_performance">
+              <p class="investcate_title">경영실적</p>
+              <div id="ir_icon">
+                <img src="/image/iricon_img.png" alt="ir아이콘">
+              </div>
+            </div>
+          </div>
+          <div class="investcate_box" id="ir_data">
+            <div id="irdata_img">
+              <img src="/image/irdate_img.png" alt="ir데이터">
+            </div>
+            <p class="irdata_title">IR 자료실</p>
+            <ul id="datacate_list">
+              <li>
+                <p class="datacate_title">공고</p>
+                <p class="datacate_icon">
+                  <a href="#">공고 보러가기</a>
+                </p>
+              </li>
+              <li>
+                <p class="datacate_title">공시정보</p>
+                <p class="datacate_icon">
+                  <a href="#">공시정보 보러가기</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div><!--investment_wrap끝-->
+    <div id="footer_wrap">
+      <footer>
+        <div id="footer_logo">SM 엔터테인먼트</div>
+        <ul id="footer_snslist">
+          <li><a href="#">유튜브</a></li>
+          <li><a href="#">인스타그램</a></li>
+          <li><a href="#">X트위터</a></li>
+          <li><a href="#">페이스북</a></li>
+        </ul>
+        <div id="footer_menu">
+            
+        </div>
+        <p class="footer_copy">
+          © SM ENTERTAINMENT. ALL RIGHTS RESERVED.
+        </p>
+      </footer>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
