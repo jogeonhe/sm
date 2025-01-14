@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   artistTitle();
   artistSlide();
   artistCover();
+<<<<<<< HEAD
   
 });
 
@@ -23,10 +24,35 @@ function artistTitle(){
 
 function artistSlide() {
   const contentsSlide = document.querySelector('#artist');
+=======
+});
+
+function artistTitle() {
+  const contentsWrap = document.querySelector("#artist_title");
+  const artistT = document.querySelector("#artist_title>p");
+
+  gsap.to(artistT, {
+    opacity: 1,
+    duration: 1,
+    fontSize: 160,
+    ease: "power1.out",
+    scrollTrigger: {
+      trigger: contentsWrap,
+      start: "top top",
+      end: "bottom top",
+      pin: true,
+    },
+  });
+}
+
+function artistSlide() {
+  const contentsSlide = document.querySelector("#artist");
+>>>>>>> 29e1f2c264e802ea811aea4f350ebe9bb0fcafad
   let endX = contentsSlide.offsetWidth - document.documentElement.clientWidth;
 
   const artist = gsap.timeline({
     scrollTrigger: {
+<<<<<<< HEAD
       trigger: '#artist_wrap',
       start: "top 0",
       end: `+=${endX}`,  // endX에 추가적인 스크롤을 허용
@@ -54,6 +80,43 @@ function artistSlide() {
 }
 
 
+=======
+      trigger: "#artist_wrap",
+      start: "top 0",
+      end: `+=${endX}`, // endX에 추가적인 스크롤을 허용
+      toggleActions: "play reverse play reverse",
+      pin: true,
+      scrub: 1, // 더 빠르게 스크롤과 애니메이션 동기화
+    },
+  });
+
+  artist
+    .to("#artist", {
+      x: `-40%`,
+      duration: 1,
+      ease: "power1.out",
+    })
+    .to(
+      ".artist_element_01",
+      {
+        opacity: 1,
+        duration: 0.5,
+        ease: "power1.out",
+      },
+      0
+    )
+    .to(
+      ".artist_element",
+      {
+        opacity: 0,
+        duration: 0.5,
+        ease: "power1.out",
+      },
+      0
+    );
+}
+
+>>>>>>> 29e1f2c264e802ea811aea4f350ebe9bb0fcafad
 function artistCover() {
   const artistLi = document.querySelectorAll(".artist_ul>li");
   const cover = document.querySelectorAll(".artist_cover");
@@ -120,4 +183,7 @@ function artistCover() {
   //   });
   //   animation.set()
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 29e1f2c264e802ea811aea4f350ebe9bb0fcafad
